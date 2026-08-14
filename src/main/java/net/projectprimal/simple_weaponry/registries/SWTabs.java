@@ -22,7 +22,6 @@ public class SWTabs {
                 if (ModList.get().isLoaded("copperagebackport")) {
                     output.accept(SWItems.COPPER_STUDDED_CLUB);
                 }
-
                 output.accept(SWItems.IRON_STUDDED_CLUB);
                 output.accept(SWItems.GOLD_STUDDED_CLUB);
                 if (ModList.get().isLoaded("create")) {
