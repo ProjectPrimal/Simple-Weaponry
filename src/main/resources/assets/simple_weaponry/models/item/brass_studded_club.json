@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "simple_weaponry:item/compat/brass_studded_club"
+  }
+}

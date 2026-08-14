@@ -1,0 +1,37 @@
+{
+  "item.simple_weaponry.wooden_club": "Wooden Club",
+  "item.simple_weaponry.copper_studded_club": "Copper Studded Club",
+  "item.simple_weaponry.iron_studded_club": "Iron Studded Club",
+  "item.simple_weaponry.gold_studded_club": "Gold Studded Club",
+  "item.simple_weaponry.zinc_studded_club": "Zinc Studded Club",
+  "item.simple_weaponry.brass_studded_club": "Brass Studded Club",
+  "item.simple_weaponry.aztec_club": "§cMacuahuitl",
+  "tooltip.simple_weaponry.club": "§7On a full swing, gives slowness to the target",
+
+  "item.simple_weaponry.wooden_dagger": "Wooden Dagger",
+  "item.simple_weaponry.stone_dagger": "Stone Dagger",
+  "item.simple_weaponry.iron_dagger": "Iron Dagger",
+  "item.simple_weaponry.golden_dagger": "Golden Dagger",
+  "item.simple_weaponry.diamond_dagger": "Diamond Dagger",
+  "item.simple_weaponry.netherite_dagger": "Netherite Dagger",
+  "tooltip.simple_weaponry.dagger": "§7Deals more damage from behind, but has less reach",
+
+  "item.simple_weaponry.iron_scythe": "Iron Scythe",
+
+  "item.simple_weaponry.wooden_cutlass": "Wooden Cutlass",
+  "item.simple_weaponry.stone_cutlass": "Stone Cutlass",
+  "item.simple_weaponry.iron_cutlass": "Iron Cutlass",
+  "item.simple_weaponry.golden_cutlass": "Golden Cutlass",
+  "item.simple_weaponry.diamond_cutlass": "Diamond Cutlass",
+  "item.simple_weaponry.netherite_cutlass": "Netherite Cutlass",
+  "tooltip.simple_weaponry.cutlass": "§7Deals more damage in water",
+
+  "creativetab.simple_weaponry.simple_weaponry_tab": "Simple Weaponry",
+  "creativetab.simple_weaponry.simple_weaponry_compat": "Simple Weaponry: Compat",
+  "tooltip.simple_weaponry.wip": "§cWIP, dont use!!!!",
+
+
+  "smithing_template.coastal_upgrade.name": "§7Coast Upgrade",
+  "smithing_template.coast_upgrade.applies_to": "Sword",
+  "smithing_template.coastal_upgrade.ingredients": "§9Ingredients: §7Prismarine"
+}

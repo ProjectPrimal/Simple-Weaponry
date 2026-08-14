@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "simple_weaponry:wooden_club"
+    },
+    "title": "Bonk!",
+    "description": "Hit a mob with a Club"
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "bonk": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "slots": {
+            "weapon.mainhand": {
+              "items": "#simple_weaponry:clubs"
+            }
+          }
+        }
+      }
+    }
+  }
+}

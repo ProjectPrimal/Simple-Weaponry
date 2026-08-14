@@ -1,0 +1,13 @@
+{
+  "values": [
+    "simple_weaponry:wooden_club",
+    "simple_weaponry:iron_studded_club",
+    "simple_weaponry:gold_studded_club",
+    "simple_weaponry:zinc_studded_club",
+    "simple_weaponry:brass_studded_club",
+    {
+      "id": "alexscaves:primitive_club",
+      "required": false
+    }
+  ]
+}

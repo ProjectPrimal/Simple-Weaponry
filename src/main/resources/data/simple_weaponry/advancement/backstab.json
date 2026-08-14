@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": {
+      "id": "simple_weaponry:iron_dagger"
+    },
+    "title": "Right behind you",
+    "description": "Backstab a mob with a dagger"
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "backstab": {
+      "trigger": "minecraft:impossible"
+          }
+        }
+      }
