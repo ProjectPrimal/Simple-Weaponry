@@ -20,14 +20,13 @@ public class SWTabs {
                 // Release
                 output.accept(SWItems.WOODEN_CLUB);
                 if (ModList.get().isLoaded("copperagebackport")) {
-                    output.accept(SWItems.COPPER_STUDDED_CLUB);
-                }
+                    output.accept(SWItems.COPPER_STUDDED_CLUB);}
                 output.accept(SWItems.IRON_STUDDED_CLUB);
+                if (ModList.get().isLoaded("create")) {
+                    output.accept(SWItems.ZINC_STUDDED_CLUB);}
                 output.accept(SWItems.GOLD_STUDDED_CLUB);
                 if (ModList.get().isLoaded("create")) {
-                    output.accept(SWItems.ZINC_STUDDED_CLUB);
-                    output.accept(SWItems.BRASS_STUDDED_CLUB);
-                }
+                    output.accept(SWItems.BRASS_STUDDED_CLUB);}
 
                 output.accept(SWItems.WOODEN_DAGGER);
                 output.accept(SWItems.STONE_DAGGER);
