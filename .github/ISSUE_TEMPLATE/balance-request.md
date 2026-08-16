@@ -1,8 +1,8 @@
 ---
 name: Balance request
-about: Describe this issue template's purpose here.
+about: Suggest a balance change for anything in this project
 title: ''
-labels: balance
+labels: balance, feature
 assignees: ''
 
 ---
