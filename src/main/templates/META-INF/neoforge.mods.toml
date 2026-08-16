@@ -39,7 +39,7 @@ displayURL="https://modrinth.com/project/simple-weaponry" #optional
 logoFile="simple_weaponry.png" #optional
 
 # A text field displayed in the mod UI
-#credits="" #optional
+credits="Kaupenjoe for the Tutorial series"
 
 # The authors of the mod, displayed in the mod UI (optional)
 authors="ProjectPrimal"

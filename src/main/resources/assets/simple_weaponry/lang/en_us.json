@@ -5,7 +5,6 @@
   "item.simple_weaponry.gold_studded_club": "Gold Studded Club",
   "item.simple_weaponry.zinc_studded_club": "Zinc Studded Club",
   "item.simple_weaponry.brass_studded_club": "Brass Studded Club",
-  "item.simple_weaponry.aztec_club": "§cMacuahuitl",
   "tooltip.simple_weaponry.club": "§7On a full swing, gives slowness to the target",
 
   "item.simple_weaponry.wooden_dagger": "Wooden Dagger",
@@ -16,7 +15,13 @@
   "item.simple_weaponry.netherite_dagger": "Netherite Dagger",
   "tooltip.simple_weaponry.dagger": "§7Deals more damage from behind, but has less reach",
 
-  "item.simple_weaponry.iron_scythe": "Iron Scythe",
+  "item.simple_weaponry.wooden_hammer": "Wooden Hammer",
+  "item.simple_weaponry.stone_hammer": "Stone Hammer",
+  "item.simple_weaponry.iron_hammer": "Iron Hammer",
+  "item.simple_weaponry.golden_hammer": "Golden Hammer",
+  "item.simple_weaponry.diamond_hammer": "Diamond Hammer",
+  "item.simple_weaponry.netherite_hammer": "Netherite Hammer",
+
 
   "item.simple_weaponry.wooden_cutlass": "Wooden Cutlass",
   "item.simple_weaponry.stone_cutlass": "Stone Cutlass",
@@ -26,12 +31,13 @@
   "item.simple_weaponry.netherite_cutlass": "Netherite Cutlass",
   "tooltip.simple_weaponry.cutlass": "§7Deals more damage in water",
 
+  "item.simple_weaponry.dynamite": "Dynamite",
+
+
+  "item.simple_weaponry.aztec_club": "§cMacuahuitl",
+
+
   "creativetab.simple_weaponry.simple_weaponry_tab": "Simple Weaponry",
   "creativetab.simple_weaponry.simple_weaponry_compat": "Simple Weaponry: Compat",
-  "tooltip.simple_weaponry.wip": "§cWIP, dont use!!!!",
-
-
-  "smithing_template.coastal_upgrade.name": "§7Coast Upgrade",
-  "smithing_template.coast_upgrade.applies_to": "Sword",
-  "smithing_template.coastal_upgrade.ingredients": "§9Ingredients: §7Prismarine"
+  "tooltip.simple_weaponry.wip": "§cWIP, dont use!!!!"
 }

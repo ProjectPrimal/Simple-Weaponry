@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "simple_weaponry:great_hammer"
+    },
+    "title": "Warhammer",
+    "description": "Obtain any hammer"
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "obtain_hammer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#simple_weaponry:hammers"
+          }
+        ]
+      }
+    }
+  }
+}

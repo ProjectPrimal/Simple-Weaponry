@@ -19,7 +19,7 @@ public class SWTabs {
             .displayItems((itemDisplayParameters, output) -> {
                 // Release
                 output.accept(SWItems.WOODEN_CLUB);
-                if (ModList.get().isLoaded("copperagebackport")) {
+                if (ModList.get().isLoaded("create")) {
                     output.accept(SWItems.COPPER_STUDDED_CLUB);}
                 output.accept(SWItems.IRON_STUDDED_CLUB);
                 if (ModList.get().isLoaded("create")) {
@@ -35,6 +35,13 @@ public class SWTabs {
                 output.accept(SWItems.DIAMOND_DAGGER);
                 output.accept(SWItems.NETHERITE_DAGGER);
 
+                output.accept(SWItems.WOODEN_HAMMER);
+                output.accept(SWItems.STONE_HAMMER);
+                output.accept(SWItems.IRON_HAMMER);
+                output.accept(SWItems.GOLDEN_HAMMER);
+                output.accept(SWItems.DIAMOND_HAMMER);
+                output.accept(SWItems.NETHERITE_HAMMER);
+
 
                 // Upcoming Pirate Update
                 //output.accept(SWItems.WOODEN_CUTLASS);
@@ -43,6 +50,7 @@ public class SWTabs {
                 //output.accept(SWItems.GOLDEN_CUTLASS);
                 //output.accept(SWItems.DIAMOND_CUTLASS);
                 //output.accept(SWItems.NETHERITE_CUTLASS);
+
 
                 // Upcoming Jungle Update
                 //output.accept(SWItems.AZTEC_CLUB);

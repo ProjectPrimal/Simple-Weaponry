@@ -1,0 +1,14 @@
+{
+  "values": [
+    "simple_weaponry:wooden_hammer",
+    "simple_weaponry:stone_hammer",
+    "simple_weaponry:iron_hammer",
+    "simple_weaponry:golden_hammer",
+    "simple_weaponry:diamond_hammer",
+    "simple_weaponry:netherite_hammer",
+    {
+      "id": "alexscaves:primitive_club",
+      "required": false
+    }
+  ]
+}

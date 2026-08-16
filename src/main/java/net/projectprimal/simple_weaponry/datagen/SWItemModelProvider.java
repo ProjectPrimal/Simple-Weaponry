@@ -16,7 +16,6 @@ public class SWItemModelProvider extends ItemModelProvider {
 
         // Release
         handheldItem(SWItems.WOODEN_CLUB.get());
-        handheldItem(SWItems.COPPER_STUDDED_CLUB.get());
         handheldItem(SWItems.IRON_STUDDED_CLUB.get());
         handheldItem(SWItems.GOLD_STUDDED_CLUB.get());
 
@@ -27,7 +26,12 @@ public class SWItemModelProvider extends ItemModelProvider {
         handheldItem(SWItems.DIAMOND_DAGGER.get());
         handheldItem(SWItems.NETHERITE_DAGGER.get());
 
-        //handheldItem(SWItems.IRON_SCYTHE.get());
+        handheldItem(SWItems.WOODEN_HAMMER.get());
+        handheldItem(SWItems.STONE_HAMMER.get());
+        handheldItem(SWItems.IRON_HAMMER.get());
+        handheldItem(SWItems.GOLDEN_HAMMER.get());
+        handheldItem(SWItems.DIAMOND_HAMMER.get());
+        handheldItem(SWItems.NETHERITE_HAMMER.get());
 
         // Upcoming Pirate Update
         handheldItem(SWItems.WOODEN_CUTLASS.get());
@@ -36,6 +40,8 @@ public class SWItemModelProvider extends ItemModelProvider {
         handheldItem(SWItems.GOLDEN_CUTLASS.get());
         handheldItem(SWItems.DIAMOND_CUTLASS.get());
         handheldItem(SWItems.NETHERITE_CUTLASS.get());
+
+        handheldItem(SWItems.DYNAMITE.get());
 
         // Upcoming Jungle Update
         handheldItem(SWItems.AZTEC_CLUB.get());
