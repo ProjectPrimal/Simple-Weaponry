@@ -22,7 +22,7 @@ public class HammerWeapon extends DiggerItem {
     }
     @Override
     public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-        tooltipComponents.add(Component.translatable("tooltip.simple_weaponry.club"));
+        tooltipComponents.add(Component.translatable("tooltip.simple_weaponry.hammer"));
         super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
     }
 
