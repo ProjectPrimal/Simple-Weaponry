@@ -2,11 +2,14 @@
 name: Balance request
 about: Suggest a balance change for anything in this project
 title: ''
-labels: balance, feature
+labels: feature
 assignees: ''
 
 ---
 
-**Describe what is wrong**
+**(INSERT UNBALANCED THING HERE) is unbalanced**
 
-**Idea to fix it**
+describe what is wrong
+
+**How to Fix**
+describe what should be done to fix it
