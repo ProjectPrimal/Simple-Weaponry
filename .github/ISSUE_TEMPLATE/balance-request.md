@@ -2,7 +2,7 @@
 name: Balance request
 about: Suggest a balance change for anything in this project
 title: ''
-labels: balance, feature
+labels: feature
 assignees: ''
 
 ---
