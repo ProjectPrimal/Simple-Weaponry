@@ -9,8 +9,6 @@ import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.data.event.GatherDataEvent;
 import net.projectprimal.simple_weaponry.SimpleWeaponry;
 
-import java.util.Collections;
-import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 @EventBusSubscriber(modid = SimpleWeaponry.MOD_ID, bus = EventBusSubscriber.Bus.MOD)
@@ -21,7 +19,9 @@ public class DataGenerators {
         PackOutput packOutput = generator.getPackOutput();
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
+
         generator.addProvider(event.includeClient(), new SWItemModelProvider(packOutput, existingFileHelper));
+
         generator.addProvider(event.includeServer(), new SWRecipeProvider(packOutput, lookupProvider));
     }
 }
