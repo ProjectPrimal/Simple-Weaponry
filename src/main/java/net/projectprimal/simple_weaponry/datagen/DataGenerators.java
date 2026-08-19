@@ -23,5 +23,7 @@ public class DataGenerators {
         generator.addProvider(event.includeClient(), new SWItemModelProvider(packOutput, existingFileHelper));
 
         generator.addProvider(event.includeServer(), new SWRecipeProvider(packOutput, lookupProvider));
+
+        generator.addProvider(event.includeServer(), new SWDatapackProvider(packOutput, lookupProvider));
     }
 }
