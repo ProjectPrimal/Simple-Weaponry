@@ -88,7 +88,7 @@ public class WeaponAbilities {
     public static final ItemAbility TRIDENT_THROW = ItemAbility.get("trident_throw");
 
     // Default actions supported by each tool type
-    public static final Set<ItemAbility> DEFAULT_CLUB_ACTIONS = of(SWORD_DIG);
+    public static final Set<ItemAbility> DEFAULT_CLUB_ACTIONS = of(SWORD_DIG, SWORD_SWEEP);
     public static final Set<ItemAbility> DEFAULT_AZTEC_CLUB_ACTIONS = of(SWORD_SWEEP, SWORD_DIG);
     public static final Set<ItemAbility> DEFAULT_SCYTHE_ACTIONS = of(HOE_DIG, HOE_TILL, SWORD_SWEEP);
     public static final Set<ItemAbility> DEFAULT_HAMMER_ACTIONS = of(PICKAXE_DIG);
