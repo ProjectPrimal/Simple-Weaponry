@@ -1,5 +1,10 @@
 {
   "values": [
-    "simple_weaponry:iron_dagger"
+    "simple_weaponry:wooden_dagger",
+    "simple_weaponry:stone_dagger",
+    "simple_weaponry:iron_dagger",
+    "simple_weaponry:golden_dagger",
+    "simple_weaponry:diamond_dagger",
+    "simple_weaponry:netherite_dagger"
   ]
 }

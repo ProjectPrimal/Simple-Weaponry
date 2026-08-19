@@ -5,10 +5,6 @@
     "simple_weaponry:iron_hammer",
     "simple_weaponry:golden_hammer",
     "simple_weaponry:diamond_hammer",
-    "simple_weaponry:netherite_hammer",
-    {
-      "id": "alexscaves:primitive_club",
-      "required": false
-    }
+    "simple_weaponry:netherite_hammer"
   ]
 }
