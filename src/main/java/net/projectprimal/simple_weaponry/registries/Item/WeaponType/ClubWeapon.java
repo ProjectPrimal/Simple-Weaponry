@@ -46,10 +46,6 @@ public class ClubWeapon extends TieredItem {
         return !player.isCreative();
     }
 
-    private static boolean playerHasShieldUseIntent(UseOnContext context) {
-        Player player = context.getPlayer();
-        return context.getHand().equals(InteractionHand.MAIN_HAND) && player.getOffhandItem().is(Items.SHIELD) && !player.isSecondaryUseActive();
-    }
     public boolean hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
         if (!target.level().isClientSide()) {
             if (attacker instanceof Player player) {
