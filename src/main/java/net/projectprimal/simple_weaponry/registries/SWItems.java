@@ -6,6 +6,7 @@ import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.projectprimal.simple_weaponry.SimpleWeaponry;
 import net.projectprimal.simple_weaponry.registries.Item.WeaponType.*;
+import net.projectprimal.simple_weaponry.registries.Item.WeaponType.Dynamite.DynamiteWeapon;
 import net.projectprimal.simple_weaponry.registries.Item.WeaponType.Subweapon.AztecClubWeapon;
 import net.projectprimal.simple_weaponry.registries.Item.WeaponType.Subweapon.CutlassWeapon;
 import net.projectprimal.simple_weaponry.registries.Item.WeaponType.Subweapon.DaggerWeapon;
@@ -44,7 +45,7 @@ public class SWItems {
     public static final DeferredItem<CutlassWeapon> DIAMOND_CUTLASS = ITEMS.register("diamond_cutlass", () -> new CutlassWeapon(Tiers.DIAMOND, new Item.Properties().attributes(ClubWeapon.createAttributes(Tiers.DIAMOND, 2, -2F)), 4f));
     public static final DeferredItem<CutlassWeapon> NETHERITE_CUTLASS = ITEMS.register("netherite_cutlass", () -> new CutlassWeapon(Tiers.NETHERITE, new Item.Properties().attributes(ClubWeapon.createAttributes(Tiers.NETHERITE, 2, -2F)), 4f));
 
-    public static final DeferredItem<SnowballItem> DYNAMITE = ITEMS.register("dynamite", () -> new SnowballItem(new Item.Properties()));
+    public static final DeferredItem<DynamiteWeapon> DYNAMITE = ITEMS.register("dynamite", () -> new DynamiteWeapon(new Item.Properties()));
 
 // Upcoming Jungle Update
     public static final DeferredItem<Item> AZTEC_CLUB = ITEMS.register("aztec_club", () -> new AztecClubWeapon(Tiers.DIAMOND, new Item.Properties().attributes(AztecClubWeapon.createAttributes(Tiers.DIAMOND, 5, -3F))));

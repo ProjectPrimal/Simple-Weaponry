@@ -1,5 +1,6 @@
 package net.projectprimal.simple_weaponry;
 
+import net.projectprimal.simple_weaponry.registries.SWEntities;
 import net.projectprimal.simple_weaponry.registries.SWItems;
 import net.projectprimal.simple_weaponry.registries.SWTabs;
 import org.slf4j.Logger;
@@ -25,6 +26,7 @@ public class SimpleWeaponry {
 
         SWItems.register(modEventBus);
         SWTabs.register(modEventBus);
+        SWEntities.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
     }

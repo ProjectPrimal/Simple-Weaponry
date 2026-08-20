@@ -42,6 +42,7 @@ public class SWTabs {
                 output.accept(SWItems.DIAMOND_HAMMER);
                 output.accept(SWItems.NETHERITE_HAMMER);
 
+                output.accept(SWItems.DYNAMITE);
 
                 // Upcoming Pirate Update
                 //output.accept(SWItems.WOODEN_CUTLASS);

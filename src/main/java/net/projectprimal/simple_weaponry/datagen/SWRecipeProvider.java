@@ -108,5 +108,16 @@ public class SWRecipeProvider extends RecipeProvider implements IConditionBuilde
                 .define('S', Items.STICK)
                 .define('T', Items.DIAMOND)
                 .unlockedBy("has_diamond", has(Items.DIAMOND)).save(recipeOutput);
+        // Misc
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, SWItems.DYNAMITE.get(), 4)
+                .pattern("T")
+                .define('T', Items.TNT)
+                .unlockedBy("has_tnt", has(Items.TNT)).save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, Items.TNT)
+                .pattern("DD")
+                .pattern("DD")
+                .define('D', SWItems.DYNAMITE.get())
+                .unlockedBy("has_dynamite", has(SWItems.DYNAMITE.get()))
+                .save(recipeOutput, "simple_weaponry:tnt_from_dynamite");
     }
 }
