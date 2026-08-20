@@ -44,7 +44,7 @@ public class SWItems {
     public static final DeferredItem<CutlassWeapon> DIAMOND_CUTLASS = ITEMS.register("diamond_cutlass", () -> new CutlassWeapon(Tiers.DIAMOND, new Item.Properties().attributes(ClubWeapon.createAttributes(Tiers.DIAMOND, 2, -2F)), 4f));
     public static final DeferredItem<CutlassWeapon> NETHERITE_CUTLASS = ITEMS.register("netherite_cutlass", () -> new CutlassWeapon(Tiers.NETHERITE, new Item.Properties().attributes(ClubWeapon.createAttributes(Tiers.NETHERITE, 2, -2F)), 4f));
 
-    public static final DeferredItem<SnowballItem> DYNAMITE = ITEMS.register("dynamit", () -> new SnowballItem(new Item.Properties()));
+    public static final DeferredItem<SnowballItem> DYNAMITE = ITEMS.register("dynamite", () -> new SnowballItem(new Item.Properties()));
 
 // Upcoming Jungle Update
     public static final DeferredItem<Item> AZTEC_CLUB = ITEMS.register("aztec_club", () -> new AztecClubWeapon(Tiers.DIAMOND, new Item.Properties().attributes(AztecClubWeapon.createAttributes(Tiers.DIAMOND, 5, -3F))));
