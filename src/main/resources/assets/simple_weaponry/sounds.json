@@ -1,0 +1,8 @@
+{
+  "dynamite_throw": {
+    "subtitle": "sounds.simple_weaponry.dynamite_throw",
+    "sounds": [
+      "simple_weaponry:dynamite_throw"
+    ]
+  }
+}

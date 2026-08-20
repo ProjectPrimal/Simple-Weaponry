@@ -27,6 +27,7 @@
 
 
   "item.simple_weaponry.dynamite": "Dynamite",
+  "sounds.simple_weaponry.dynamite_throw": "Dynamite Flies",
 
 
   "item.simple_weaponry.wooden_cutlass": "Wooden Cutlass",

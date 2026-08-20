@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.ProjectileItem;
 import net.minecraft.world.level.Level;
+import net.projectprimal.simple_weaponry.registries.SWSounds;
 
 public class DynamiteWeapon extends Item implements ProjectileItem {
     public DynamiteWeapon(Item.Properties properties) {
@@ -21,7 +22,7 @@ public class DynamiteWeapon extends Item implements ProjectileItem {
 
     public InteractionResultHolder<ItemStack> use(Level level, Player player, InteractionHand hand) {
         ItemStack itemstack = player.getItemInHand(hand);
-        level.playSound((Player)null, player.getX(), player.getY(), player.getZ(), SoundEvents.TNT_PRIMED, SoundSource.NEUTRAL, 0.5F, 0.4F / (level.getRandom().nextFloat() * 0.4F + 0.8F));
+        level.playSound((Player)null, player.getX(), player.getY(), player.getZ(), SWSounds.DYNAMITE_THROW.get(), SoundSource.NEUTRAL, 0.5F, 0.4F / (level.getRandom().nextFloat() * 0.4F + 0.8F));
         if (!level.isClientSide) {
             Dynamite dynamite = new Dynamite(level, player);
             dynamite.setItem(itemstack);
