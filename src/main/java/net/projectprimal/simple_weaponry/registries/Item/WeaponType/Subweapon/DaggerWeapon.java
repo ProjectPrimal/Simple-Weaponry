@@ -5,6 +5,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.TooltipFlag;
+import net.neoforged.neoforge.common.ItemAbility;
+import net.projectprimal.simple_weaponry.common.WeaponAbilities;
 
 import java.util.List;
 
@@ -22,5 +24,8 @@ public class DaggerWeapon extends SwordItem {
     public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
         tooltipComponents.add(Component.translatable("tooltip.simple_weaponry.dagger"));
         super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+    }
+    public boolean canPerformAction(ItemStack stack, ItemAbility itemAbility) {
+        return WeaponAbilities.DEFAULT_DAGGER_ACTIONS.contains(itemAbility);
     }
 }

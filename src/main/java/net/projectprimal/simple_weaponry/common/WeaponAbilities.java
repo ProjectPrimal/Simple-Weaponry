@@ -89,9 +89,8 @@ public class WeaponAbilities {
 
     // Default actions supported by each tool type
     public static final Set<ItemAbility> DEFAULT_CLUB_ACTIONS = of(SWORD_DIG, SWORD_SWEEP);
-    public static final Set<ItemAbility> DEFAULT_AZTEC_CLUB_ACTIONS = of(SWORD_SWEEP, SWORD_DIG);
     public static final Set<ItemAbility> DEFAULT_SCYTHE_ACTIONS = of(HOE_DIG, HOE_TILL, SWORD_SWEEP);
-    public static final Set<ItemAbility> DEFAULT_HAMMER_ACTIONS = of(PICKAXE_DIG);
+    public static final Set<ItemAbility> DEFAULT_DAGGER_ACTIONS = of(SWORD_DIG);
 
     private static Set<ItemAbility> of(ItemAbility... actions) {
         return Stream.of(actions).collect(Collectors.toCollection(Sets::newIdentityHashSet));
