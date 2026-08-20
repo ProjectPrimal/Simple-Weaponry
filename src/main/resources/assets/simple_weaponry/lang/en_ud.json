@@ -1,0 +1,44 @@
+{
+  "item.simple_weaponry.wooden_club": "qnlƆ uǝpooM",
+  "item.simple_weaponry.copper_studded_club": "qnlƆ pǝppnʇS ɹǝddoƆ",
+  "item.simple_weaponry.iron_studded_club": "qnlƆ pǝppnʇS uoɹI",
+  "item.simple_weaponry.gold_studded_club": "qnlƆ pǝppnʇS ploפ",
+  "item.simple_weaponry.zinc_studded_club": "qnlƆ pǝppnʇS ɔuᴉZ",
+  "item.simple_weaponry.brass_studded_club": "qnlƆ pǝppnʇS ssɐɹq",
+  "tooltip.simple_weaponry.club": "§7ʇǝƃɹɐʇ ǝɥʇ oʇ ssǝuʍols sǝʌᴉƃ 'ƃuᴉʍs llnɟ ɐ uO",
+
+  "enchantment.simple_weaponry.smashing": "ƃuᴉɥsɐɯS",
+
+  "item.simple_weaponry.wooden_dagger": "ɹǝƃƃɐp uǝpooM",
+  "item.simple_weaponry.stone_dagger": "ɹǝƃƃɐp ǝuoʇS",
+  "item.simple_weaponry.iron_dagger": "ɹǝƃƃɐp uoɹI",
+  "item.simple_weaponry.golden_dagger": "ɹǝƃƃɐp uǝploפ",
+  "item.simple_weaponry.diamond_dagger": "ɹǝƃƃɐp puoɯɐᴉp",
+  "item.simple_weaponry.netherite_dagger": "ɹǝƃƃɐp ǝʇᴉɹǝɥʇǝN",
+  "tooltip.simple_weaponry.dagger": "§7puᴉɥǝq ɯoɹɟ ǝƃɐɯɐp ǝɹoɯ slɐǝp",
+
+  "item.simple_weaponry.wooden_hammer": "ɹǝɯɯɐH uǝpooM",
+  "item.simple_weaponry.stone_hammer": "ɹǝɯɯɐH ǝuoʇS",
+  "item.simple_weaponry.iron_hammer": "ɹǝɯɯɐH uoɹI",
+  "item.simple_weaponry.golden_hammer": "ɹǝɯɯɐH uǝploפ",
+  "item.simple_weaponry.diamond_hammer": "ɹǝɯɯɐH puoɯɐᴉp",
+  "item.simple_weaponry.netherite_hammer": "ɹǝɯɯɐH ǝʇᴉɹǝɥʇǝN",
+  "tooltip.simple_weaponry.hammer": "§7sɐǝɹɐ ƐxƐ ƃuᴉƃƃᴉp ɟo ǝlqɐdɐƆ",
+
+  "item.simple_weaponry.wooden_cutlass": "ssɐlʇnƆ uǝpooM",
+  "item.simple_weaponry.stone_cutlass": "ssɐlʇnƆ ǝuoʇS",
+  "item.simple_weaponry.iron_cutlass": "ssɐlʇnƆ uoɹI",
+  "item.simple_weaponry.golden_cutlass": "ssɐlʇnƆ uǝploפ",
+  "item.simple_weaponry.diamond_cutlass": "ssɐlʇnƆ puoɯɐᴉp",
+  "item.simple_weaponry.netherite_cutlass": "ssɐlʇnƆ ǝʇᴉɹǝɥʇǝN",
+  "tooltip.simple_weaponry.cutlass": "§7ɹǝʇɐʍ uᴉ ǝƃɐɯɐp ǝɹoɯ slɐǝp",
+
+  "item.simple_weaponry.dynamite": "ǝʇᴉɯɐuʎp",
+
+
+  "item.simple_weaponry.aztec_club": "§clʇᴉnɥɐnɔɐW",
+
+
+  "creativetab.simple_weaponry.simple_weaponry_tab": "ʎɹuodɐǝM ǝldɯᴉS",
+  "tooltip.simple_weaponry.wip": "§cWIP, dont use!!!!"
+}
