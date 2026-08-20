@@ -37,6 +37,11 @@ public class SWItems {
     public static final DeferredItem<HammerWeapon> DIAMOND_HAMMER = ITEMS.register("diamond_hammer", () -> new HammerWeapon(Tiers.DIAMOND, new Item.Properties().attributes(PickaxeItem.createAttributes(Tiers.DIAMOND, 5, -3.5f))));
     public static final DeferredItem<HammerWeapon> NETHERITE_HAMMER = ITEMS.register("netherite_hammer", () -> new HammerWeapon(Tiers.NETHERITE, new Item.Properties().attributes(PickaxeItem.createAttributes(Tiers.NETHERITE, 5, -3.5f))));
 
+
+// More Misc (1.1.0)
+    public static final DeferredItem<DynamiteWeapon> DYNAMITE = ITEMS.register("dynamite", () -> new DynamiteWeapon(new Item.Properties().stacksTo(16)));
+
+
 // Upcoming Pirate Update
     public static final DeferredItem<CutlassWeapon> WOODEN_CUTLASS = ITEMS.register("wooden_cutlass", () -> new CutlassWeapon(Tiers.WOOD, new Item.Properties().attributes(ClubWeapon.createAttributes(Tiers.WOOD, 2, -2F)), 4f));
     public static final DeferredItem<CutlassWeapon> STONE_CUTLASS = ITEMS.register("stone_cutlass", () -> new CutlassWeapon(Tiers.STONE, new Item.Properties().attributes(ClubWeapon.createAttributes(Tiers.STONE, 2, -2F)), 4f));
@@ -45,7 +50,6 @@ public class SWItems {
     public static final DeferredItem<CutlassWeapon> DIAMOND_CUTLASS = ITEMS.register("diamond_cutlass", () -> new CutlassWeapon(Tiers.DIAMOND, new Item.Properties().attributes(ClubWeapon.createAttributes(Tiers.DIAMOND, 2, -2F)), 4f));
     public static final DeferredItem<CutlassWeapon> NETHERITE_CUTLASS = ITEMS.register("netherite_cutlass", () -> new CutlassWeapon(Tiers.NETHERITE, new Item.Properties().attributes(ClubWeapon.createAttributes(Tiers.NETHERITE, 2, -2F)), 4f));
 
-    public static final DeferredItem<DynamiteWeapon> DYNAMITE = ITEMS.register("dynamite", () -> new DynamiteWeapon(new Item.Properties()));
 
 // Upcoming Jungle Update
     public static final DeferredItem<Item> AZTEC_CLUB = ITEMS.register("aztec_club", () -> new AztecClubWeapon(Tiers.DIAMOND, new Item.Properties().attributes(AztecClubWeapon.createAttributes(Tiers.DIAMOND, 5, -3F))));
