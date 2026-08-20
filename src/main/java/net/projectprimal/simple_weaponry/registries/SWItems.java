@@ -10,6 +10,7 @@ import net.projectprimal.simple_weaponry.registries.Item.WeaponType.Dynamite.Dyn
 import net.projectprimal.simple_weaponry.registries.Item.WeaponType.Subweapon.AztecClubWeapon;
 import net.projectprimal.simple_weaponry.registries.Item.WeaponType.Subweapon.CutlassWeapon;
 import net.projectprimal.simple_weaponry.registries.Item.WeaponType.Subweapon.DaggerWeapon;
+import net.projectprimal.simple_weaponry.registries.Item.WeaponType.Subweapon.ScytheWeapon;
 
 public class SWItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(SimpleWeaponry.MOD_ID);
@@ -40,7 +41,6 @@ public class SWItems {
 
 // More Misc (1.1.0)
     public static final DeferredItem<DynamiteWeapon> DYNAMITE = ITEMS.register("dynamite", () -> new DynamiteWeapon(new Item.Properties().stacksTo(16)));
-
 
 // Upcoming Pirate Update
     public static final DeferredItem<CutlassWeapon> WOODEN_CUTLASS = ITEMS.register("wooden_cutlass", () -> new CutlassWeapon(Tiers.WOOD, new Item.Properties().attributes(ClubWeapon.createAttributes(Tiers.WOOD, 2, -2F)), 4f));

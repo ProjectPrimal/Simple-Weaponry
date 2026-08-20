@@ -25,6 +25,11 @@
   "item.simple_weaponry.netherite_hammer": "Netherite Hammer",
   "tooltip.simple_weaponry.hammer": "§7Capable of digging 3x3 areas",
 
+
+  "item.simple_weaponry.dynamite": "Dynamite",
+  "item.simple_weaponry.iron_scythe": "Iron Scythe",
+
+
   "item.simple_weaponry.wooden_cutlass": "Wooden Cutlass",
   "item.simple_weaponry.stone_cutlass": "Stone Cutlass",
   "item.simple_weaponry.iron_cutlass": "Iron Cutlass",
@@ -32,8 +37,6 @@
   "item.simple_weaponry.diamond_cutlass": "Diamond Cutlass",
   "item.simple_weaponry.netherite_cutlass": "Netherite Cutlass",
   "tooltip.simple_weaponry.cutlass": "§7Deals more damage in water",
-
-  "item.simple_weaponry.dynamite": "Dynamite",
 
 
   "item.simple_weaponry.aztec_club": "§cMacuahuitl",
