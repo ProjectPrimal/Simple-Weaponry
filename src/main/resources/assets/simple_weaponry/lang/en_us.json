@@ -6,6 +6,7 @@
   "item.simple_weaponry.zinc_studded_club": "Zinc Studded Club",
   "item.simple_weaponry.brass_studded_club": "Brass Studded Club",
   "tooltip.simple_weaponry.club": "§7On a full swing, gives slowness to the target",
+  "tooltip.simple_weaponry.uranium_studded_club": "§7On a full swing, makes the target irradiated",
 
   "enchantment.simple_weaponry.smashing": "Smashing",
 

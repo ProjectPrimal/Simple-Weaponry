@@ -1,4 +1,4 @@
-package net.projectprimal.simple_weaponry.registries.Item.WeaponType;
+package net.projectprimal.simple_weaponry.registries.Item.WeaponType.Subweapon.Pickaxe;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;

@@ -1,4 +1,4 @@
-package net.projectprimal.simple_weaponry.registries.Item.WeaponType.Subweapon;
+package net.projectprimal.simple_weaponry.registries.Item.WeaponType.Subweapon.Sword;
 
 import java.util.List;
 

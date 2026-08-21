@@ -14,8 +14,8 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.event.entity.living.LivingIncomingDamageEvent;
 import net.neoforged.neoforge.event.level.BlockEvent;
-import net.projectprimal.simple_weaponry.registries.Item.WeaponType.HammerWeapon;
-import net.projectprimal.simple_weaponry.registries.Item.WeaponType.Subweapon.DaggerWeapon;
+import net.projectprimal.simple_weaponry.registries.Item.WeaponType.Subweapon.Pickaxe.HammerWeapon;
+import net.projectprimal.simple_weaponry.registries.Item.WeaponType.Subweapon.Sword.DaggerWeapon;
 
 import java.util.HashSet;
 import java.util.Set;

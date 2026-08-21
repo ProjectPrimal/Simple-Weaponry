@@ -27,6 +27,8 @@ public class SWTabs {
                 output.accept(SWItems.GOLD_STUDDED_CLUB);
                 if (ModList.get().isLoaded("create")) {
                     output.accept(SWItems.BRASS_STUDDED_CLUB);}
+                if (ModList.get().isLoaded("alexscaves")) {
+                    output.accept(SWItems.URANIUM_STUDDED_CLUB);}
 
                 output.accept(SWItems.WOODEN_DAGGER);
                 output.accept(SWItems.STONE_DAGGER);

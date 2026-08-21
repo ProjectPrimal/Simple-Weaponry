@@ -7,10 +7,10 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import net.projectprimal.simple_weaponry.SimpleWeaponry;
 import net.projectprimal.simple_weaponry.registries.Item.WeaponType.*;
 import net.projectprimal.simple_weaponry.registries.Item.WeaponType.Dynamite.DynamiteWeapon;
-import net.projectprimal.simple_weaponry.registries.Item.WeaponType.Subweapon.AztecClubWeapon;
-import net.projectprimal.simple_weaponry.registries.Item.WeaponType.Subweapon.CutlassWeapon;
-import net.projectprimal.simple_weaponry.registries.Item.WeaponType.Subweapon.DaggerWeapon;
-import net.projectprimal.simple_weaponry.registries.Item.WeaponType.Subweapon.ScytheWeapon;
+import net.projectprimal.simple_weaponry.registries.Item.WeaponType.Subweapon.Pickaxe.HammerWeapon;
+import net.projectprimal.simple_weaponry.registries.Item.WeaponType.Subweapon.Sword.AztecClubWeapon;
+import net.projectprimal.simple_weaponry.registries.Item.WeaponType.Subweapon.Sword.CutlassWeapon;
+import net.projectprimal.simple_weaponry.registries.Item.WeaponType.Subweapon.Sword.DaggerWeapon;
 
 public class SWItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(SimpleWeaponry.MOD_ID);
@@ -41,6 +41,8 @@ public class SWItems {
 
 // More Misc (1.1.0)
     public static final DeferredItem<DynamiteWeapon> DYNAMITE = ITEMS.register("dynamite", () -> new DynamiteWeapon(new Item.Properties().stacksTo(16)));
+    // Alexs Caves
+    public static final DeferredItem<UraniumClubWeapon> URANIUM_STUDDED_CLUB = ITEMS.register("uranium_studded_club", () -> new UraniumClubWeapon(Tiers.DIAMOND, new Item.Properties().attributes(UraniumClubWeapon.createAttributes(Tiers.DIAMOND, 4, -3.5F))));
 
 
 // Upcoming Pirate Update
