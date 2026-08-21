@@ -1,23 +1,31 @@
 package net.projectprimal.simple_weaponry.registries;
 
+import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
 import net.minecraft.core.BlockPos;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.npc.VillagerProfession;
+import net.minecraft.world.entity.npc.VillagerTrades;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.trading.ItemCost;
+import net.minecraft.world.item.trading.MerchantOffer;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.Vec3;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.event.entity.living.LivingIncomingDamageEvent;
 import net.neoforged.neoforge.event.level.BlockEvent;
+import net.neoforged.neoforge.event.village.VillagerTradesEvent;
 import net.projectprimal.simple_weaponry.registries.Item.WeaponType.Subweapon.Pickaxe.HammerWeapon;
 import net.projectprimal.simple_weaponry.registries.Item.WeaponType.Subweapon.Sword.DaggerWeapon;
 
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 @EventBusSubscriber(modid = "simple_weaponry", bus = EventBusSubscriber.Bus.GAME)
@@ -67,19 +75,20 @@ public class SWEvents {
             }
         }
     }
+
     @SubscribeEvent
     public static void onHammerUsage(BlockEvent.BreakEvent event) {
         Player player = event.getPlayer();
         ItemStack mainHandItem = player.getMainHandItem();
 
-        if(mainHandItem.getItem() instanceof HammerWeapon hammer && player instanceof ServerPlayer serverPlayer) {
+        if (mainHandItem.getItem() instanceof HammerWeapon hammer && player instanceof ServerPlayer serverPlayer) {
             BlockPos initialBlockPos = event.getPos();
-            if(HARVESTED_BLOCKS.contains(initialBlockPos)) {
+            if (HARVESTED_BLOCKS.contains(initialBlockPos)) {
                 return;
             }
 
-            for(BlockPos pos : HammerWeapon.getBlocksToBeDestroyed(1, initialBlockPos, serverPlayer)) {
-                if(pos == initialBlockPos || !hammer.isCorrectToolForDrops(mainHandItem, event.getLevel().getBlockState(pos))) {
+            for (BlockPos pos : HammerWeapon.getBlocksToBeDestroyed(1, initialBlockPos, serverPlayer)) {
+                if (pos == initialBlockPos || !hammer.isCorrectToolForDrops(mainHandItem, event.getLevel().getBlockState(pos))) {
                     continue;
                 }
 
@@ -87,6 +96,29 @@ public class SWEvents {
                 serverPlayer.gameMode.destroyBlock(pos);
                 HARVESTED_BLOCKS.remove(pos);
             }
+        }
+    }
+    @SubscribeEvent
+    public static void addCustomTrades(VillagerTradesEvent event) {
+        if(event.getType() == VillagerProfession.WEAPONSMITH) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+
+            trades.get(1).add((entity, randomSource) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 3),
+                    new ItemStack(SWItems.IRON_STUDDED_CLUB.get(), 1), 12, 3, 0.05f));
+
+            trades.get(1).add((entity, randomSource) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 3),
+                    new ItemStack(SWItems.IRON_DAGGER.get(), 1), 12, 3, 0.05f));
+        }
+
+        if(event.getType() == VillagerProfession.TOOLSMITH) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+
+            trades.get(1).add((entity, randomSource) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 3),
+                    new ItemStack(SWItems.STONE_HAMMER.get(), 1), 12, 3, 0.2f));
+
         }
     }
 }

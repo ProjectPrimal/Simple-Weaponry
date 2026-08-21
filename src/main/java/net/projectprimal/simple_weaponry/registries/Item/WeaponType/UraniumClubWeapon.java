@@ -7,6 +7,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
@@ -27,17 +28,11 @@ public class UraniumClubWeapon extends BludgeonWeapon {
         super(tier, properties.component(DataComponents.TOOL, createToolProperties()));
     }
 
-    @Override
     public boolean hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
         if (!target.level().isClientSide()) {
-            if (attacker instanceof Player player) {
-                if (player.getAttackStrengthScale(0.5F) >= 0.9F) {
+            Optional<Holder.Reference<MobEffect>> moddedEffect = BuiltInRegistries.MOB_EFFECT.getHolder(IRRADIATED);
 
-                    Optional<Holder.Reference<MobEffect>> moddedEffect = BuiltInRegistries.MOB_EFFECT.getHolder(IRRADIATED);
-
-                    moddedEffect.ifPresent(mobEffectReference -> target.addEffect(new MobEffectInstance(mobEffectReference, 100, 0)));
-                }
-            }
+            moddedEffect.ifPresent(mobEffectReference -> target.addEffect(new MobEffectInstance(mobEffectReference, 100, 0)));
         }
         return true;
     }
