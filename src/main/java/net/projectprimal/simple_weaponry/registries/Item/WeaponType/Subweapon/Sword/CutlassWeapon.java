@@ -31,7 +31,7 @@ public class CutlassWeapon extends SwordItem {
 
     @Override
     public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-        tooltipComponents.add(Component.translatable("tooltip.simple_weaponry.wip"));
+        tooltipComponents.add(Component.translatable("tooltip.simple_weaponry.cutlass"));
         super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
     }
 }

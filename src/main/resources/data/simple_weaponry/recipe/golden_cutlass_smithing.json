@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:prismarine_shard"
+  },
+  "base": {
+    "item": "minecraft:golden_sword"
+  },
+  "result": {
+    "count": 1,
+    "id": "simple_weaponry:golden_cutlass"
+  },
+  "template": {
+    "item": "simple_weaponry:coast_upgrade_smithing_template"
+  }
+}
