@@ -25,6 +25,14 @@
   "item.simple_weaponry.netherite_hammer": "ɹǝɯɯɐH ǝʇᴉɹǝɥʇǝN",
   "tooltip.simple_weaponry.hammer": "§7sɐǝɹɐ ƐxƐ ƃuᴉƃƃᴉp ɟo ǝlqɐdɐƆ",
 
+
+  "item.simple_weaponry.dynamite": "ǝʇᴉɯɐuʎp",
+  "sounds.simple_weaponry.dynamite_throw": "sǝᴉlℲ ǝʇᴉɯɐuʎp",
+
+  "item.simple_weaponry.uranium_studded_club": "qnlƆ pǝppnʇS ɯnᴉuɐɹ∩",
+  "tooltip.simple_weaponry.uranium_studded_club": "§7ʇᴉɥ uo pǝʇɐᴉpɐɹɹᴉ ʇǝƃɹɐʇ ǝɥʇ sǝʞɐW",
+
+
   "item.simple_weaponry.wooden_cutlass": "ssɐlʇnƆ uǝpooM",
   "item.simple_weaponry.stone_cutlass": "ssɐlʇnƆ ǝuoʇS",
   "item.simple_weaponry.iron_cutlass": "ssɐlʇnƆ uoɹI",
@@ -32,8 +40,6 @@
   "item.simple_weaponry.diamond_cutlass": "ssɐlʇnƆ puoɯɐᴉp",
   "item.simple_weaponry.netherite_cutlass": "ssɐlʇnƆ ǝʇᴉɹǝɥʇǝN",
   "tooltip.simple_weaponry.cutlass": "§7ɹǝʇɐʍ uᴉ ǝƃɐɯɐp ǝɹoɯ slɐǝp",
-
-  "item.simple_weaponry.dynamite": "ǝʇᴉɯɐuʎp",
 
 
   "item.simple_weaponry.aztec_club": "§clʇᴉnɥɐnɔɐW",
