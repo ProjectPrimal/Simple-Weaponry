@@ -34,6 +34,8 @@ public class SWItemModelProvider extends ItemModelProvider {
         handheldItem(SWItems.NETHERITE_HAMMER.get());
 
         // Upcoming Pirate Update
+        handheldItem(SWItems.COAST_UPGRADE_SMITHING_TEMPLATE.get());
+
         handheldItem(SWItems.WOODEN_CUTLASS.get());
         handheldItem(SWItems.STONE_CUTLASS.get());
         handheldItem(SWItems.IRON_CUTLASS.get());

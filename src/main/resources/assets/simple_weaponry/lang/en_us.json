@@ -33,6 +33,13 @@
   "sounds.simple_weaponry.dynamite_throw": "Dynamite Flies",
 
 
+  "item.simple_weaponry.coast_upgrade_smithing_template": "Smithing Template",
+  "upgrade.simple_weaponry.coast_upgrade": "Coast Upgrade",
+  "item.simple_weaponry.smithing_template.coast_upgrade.applies_to": "Swords",
+  "item.simple_weaponry.smithing_template.coast_upgrade.ingredients": "Prismarine Shard",
+  "item.simple_weaponry.smithing_template.coast_upgrade.base_slot_description": "Add a sword",
+  "item.simple_weaponry.smithing_template.coast_upgrade.additions_slot_description": "Add Prismarine Shard",
+
   "item.simple_weaponry.wooden_cutlass": "Wooden Cutlass",
   "item.simple_weaponry.stone_cutlass": "Stone Cutlass",
   "item.simple_weaponry.iron_cutlass": "Iron Cutlass",
