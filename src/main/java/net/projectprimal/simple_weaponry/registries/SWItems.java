@@ -47,7 +47,7 @@ public class SWItems {
 
 
 // Upcoming Pirate Update
-    public static final DeferredItem<Item> COAST_UPGRADE_SMITHING_TEMPLATE = ITEMS.register("coast_upgrade_smithing_template", () -> SWSmithingTemplateItem.createCoastUpgradeTemplate());
+    public static final DeferredItem<Item> COAST_UPGRADE_SMITHING_TEMPLATE = ITEMS.register("coast_upgrade_smithing_template", SWSmithingTemplateItem::createCoastUpgradeTemplate);
 
     public static final DeferredItem<CutlassWeapon> WOODEN_CUTLASS = ITEMS.register("wooden_cutlass", () -> new CutlassWeapon(Tiers.WOOD, new Item.Properties().attributes(ClubWeapon.createAttributes(Tiers.WOOD, 2, -2F)), 4f));
     public static final DeferredItem<CutlassWeapon> STONE_CUTLASS = ITEMS.register("stone_cutlass", () -> new CutlassWeapon(Tiers.STONE, new Item.Properties().attributes(ClubWeapon.createAttributes(Tiers.STONE, 2, -2F)), 4f));
