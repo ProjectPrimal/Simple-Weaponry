@@ -43,7 +43,7 @@ public class SWItemModelProvider extends ItemModelProvider {
         handheldItem(SWItems.DIAMOND_CUTLASS.get());
         handheldItem(SWItems.NETHERITE_CUTLASS.get());
 
-        handheldItem(SWItems.DYNAMITE.get());E
+        handheldItem(SWItems.DYNAMITE.get());
 
         // Upcoming Jungle Update
         handheldItem(SWItems.AZTEC_CLUB.get());
