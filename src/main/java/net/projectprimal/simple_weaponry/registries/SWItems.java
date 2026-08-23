@@ -5,7 +5,6 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.projectprimal.simple_weaponry.SimpleWeaponry;
-import net.projectprimal.simple_weaponry.registries.Item.Smithing.SWSmithingTemplateItem;
 import net.projectprimal.simple_weaponry.registries.Item.WeaponType.*;
 import net.projectprimal.simple_weaponry.registries.Item.WeaponType.Dynamite.DynamiteWeapon;
 import net.projectprimal.simple_weaponry.registries.Item.WeaponType.Subweapon.Pickaxe.HammerWeapon;
@@ -47,8 +46,6 @@ public class SWItems {
 
 
 // Upcoming Pirate Update
-    public static final DeferredItem<Item> COAST_UPGRADE_SMITHING_TEMPLATE = ITEMS.register("coast_upgrade_smithing_template", SWSmithingTemplateItem::createCoastUpgradeTemplate);
-
     public static final DeferredItem<CutlassWeapon> WOODEN_CUTLASS = ITEMS.register("wooden_cutlass", () -> new CutlassWeapon(Tiers.WOOD, new Item.Properties().attributes(ClubWeapon.createAttributes(Tiers.WOOD, 2, -2F)), 4f));
     public static final DeferredItem<CutlassWeapon> STONE_CUTLASS = ITEMS.register("stone_cutlass", () -> new CutlassWeapon(Tiers.STONE, new Item.Properties().attributes(ClubWeapon.createAttributes(Tiers.STONE, 2, -2F)), 4f));
     public static final DeferredItem<CutlassWeapon> GOLDEN_CUTLASS = ITEMS.register("golden_cutlass", () -> new CutlassWeapon(Tiers.GOLD, new Item.Properties().attributes(ClubWeapon.createAttributes(Tiers.GOLD, 2, -2F)), 4f));
