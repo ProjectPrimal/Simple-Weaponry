@@ -33,6 +33,7 @@ public class SWItemModelProvider extends ItemModelProvider {
         handheldItem(SWItems.DIAMOND_HAMMER.get());
         handheldItem(SWItems.NETHERITE_HAMMER.get());
 
+
         // Upcoming Pirate Update
         handheldItem(SWItems.COAST_UPGRADE_SMITHING_TEMPLATE.get());
 
@@ -44,6 +45,7 @@ public class SWItemModelProvider extends ItemModelProvider {
         handheldItem(SWItems.NETHERITE_CUTLASS.get());
 
         handheldItem(SWItems.DYNAMITE.get());
+
 
         // Upcoming Jungle Update
         handheldItem(SWItems.AZTEC_CLUB.get());
