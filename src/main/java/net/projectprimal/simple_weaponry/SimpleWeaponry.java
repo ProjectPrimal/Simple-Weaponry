@@ -1,9 +1,9 @@
 package net.projectprimal.simple_weaponry;
 
 import net.projectprimal.simple_weaponry.registries.SWEntities;
-import net.projectprimal.simple_weaponry.registries.SWItems;
+import net.projectprimal.simple_weaponry.registries.Item.SWItems;
 import net.projectprimal.simple_weaponry.registries.SWSounds;
-import net.projectprimal.simple_weaponry.registries.SWTabs;
+import net.projectprimal.simple_weaponry.registries.Item.SWTabs;
 import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
 import net.neoforged.bus.api.IEventBus;

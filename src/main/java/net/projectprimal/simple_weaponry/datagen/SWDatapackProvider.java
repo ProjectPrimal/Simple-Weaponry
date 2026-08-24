@@ -1,7 +1,7 @@
 package net.projectprimal.simple_weaponry.datagen;
 
 import net.projectprimal.simple_weaponry.SimpleWeaponry;
-import net.projectprimal.simple_weaponry.registries.SWEnchants;
+import net.projectprimal.simple_weaponry.registries.Item.SWEnchants;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.RegistrySetBuilder;
 import net.minecraft.core.registries.Registries;

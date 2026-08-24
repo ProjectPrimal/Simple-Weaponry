@@ -1,4 +1,4 @@
-package net.projectprimal.simple_weaponry.registries;
+package net.projectprimal.simple_weaponry.registries.Item;
 
 import net.minecraft.world.item.enchantment.LevelBasedValue;
 import net.minecraft.world.item.enchantment.effects.AddValue;
@@ -11,6 +11,7 @@ import net.minecraft.tags.EnchantmentTags;
 import net.minecraft.world.entity.EquipmentSlotGroup;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.EnchantmentEffectComponents;
+import net.projectprimal.simple_weaponry.registries.SWTags;
 
 public class SWEnchants {
     public static final ResourceKey<Enchantment> SMASHING = ResourceKey.create(Registries.ENCHANTMENT,

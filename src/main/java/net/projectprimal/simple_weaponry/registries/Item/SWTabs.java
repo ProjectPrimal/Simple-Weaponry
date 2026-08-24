@@ -1,4 +1,4 @@
-package net.projectprimal.simple_weaponry.registries;
+package net.projectprimal.simple_weaponry.registries.Item;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -47,12 +47,14 @@ public class SWTabs {
                 output.accept(SWItems.DYNAMITE);
 
                 // Upcoming Pirate Update
-                //output.accept(SWItems.WOODEN_CUTLASS);
-                //output.accept(SWItems.STONE_CUTLASS);
-                //output.accept(SWItems.IRON_CUTLASS);
-                //output.accept(SWItems.GOLDEN_CUTLASS);
-                //output.accept(SWItems.DIAMOND_CUTLASS);
-                //output.accept(SWItems.NETHERITE_CUTLASS);
+                output.accept(SWItems.COAST_UPGRADE_SMITHING_TEMPLATE);
+
+                output.accept(SWItems.WOODEN_CUTLASS);
+                output.accept(SWItems.STONE_CUTLASS);
+                output.accept(SWItems.IRON_CUTLASS);
+                output.accept(SWItems.GOLDEN_CUTLASS);
+                output.accept(SWItems.DIAMOND_CUTLASS);
+                output.accept(SWItems.NETHERITE_CUTLASS);
 
 
                 // Upcoming Jungle Update

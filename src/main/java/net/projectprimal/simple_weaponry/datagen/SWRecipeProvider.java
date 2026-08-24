@@ -4,13 +4,10 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.tags.ItemTags;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
-import net.projectprimal.simple_weaponry.registries.SWItems;
-import org.apache.commons.lang3.ObjectUtils;
+import net.projectprimal.simple_weaponry.registries.Item.SWItems;
 
-import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 public class SWRecipeProvider extends RecipeProvider implements IConditionBuilder {

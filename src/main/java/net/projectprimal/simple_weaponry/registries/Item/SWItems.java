@@ -1,4 +1,4 @@
-package net.projectprimal.simple_weaponry.registries;
+package net.projectprimal.simple_weaponry.registries.Item;
 
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;

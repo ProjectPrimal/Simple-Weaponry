@@ -21,6 +21,7 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.event.entity.living.LivingIncomingDamageEvent;
 import net.neoforged.neoforge.event.level.BlockEvent;
 import net.neoforged.neoforge.event.village.VillagerTradesEvent;
+import net.projectprimal.simple_weaponry.registries.Item.SWItems;
 import net.projectprimal.simple_weaponry.registries.Item.WeaponType.Subweapon.Pickaxe.HammerWeapon;
 import net.projectprimal.simple_weaponry.registries.Item.WeaponType.Subweapon.Sword.DaggerWeapon;
 

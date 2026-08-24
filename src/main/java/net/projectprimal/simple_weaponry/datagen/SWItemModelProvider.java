@@ -4,7 +4,7 @@ import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.projectprimal.simple_weaponry.SimpleWeaponry;
-import net.projectprimal.simple_weaponry.registries.SWItems;
+import net.projectprimal.simple_weaponry.registries.Item.SWItems;
 
 public class SWItemModelProvider extends ItemModelProvider {
     public SWItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
