@@ -60,6 +60,7 @@ public class SWItems {
 // Upcoming Jungle Update
     public static final DeferredItem<Item> AZTEC_CLUB = ITEMS.register("aztec_club", () -> new AztecClubWeapon(Tiers.DIAMOND, new Item.Properties().attributes(AztecClubWeapon.createAttributes(Tiers.DIAMOND, 5, -3F))));
 
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
