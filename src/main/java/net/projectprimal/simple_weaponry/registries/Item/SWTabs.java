@@ -30,12 +30,13 @@ public class SWTabs {
                 if (ModList.get().isLoaded("alexscaves")) {
                     output.accept(SWItems.URANIUM_STUDDED_CLUB);}
 
+                if (!ModList.get().isLoaded("farmersdelight")) {
                 output.accept(SWItems.WOODEN_DAGGER);
                 output.accept(SWItems.STONE_DAGGER);
                 output.accept(SWItems.IRON_DAGGER);
                 output.accept(SWItems.GOLDEN_DAGGER);
                 output.accept(SWItems.DIAMOND_DAGGER);
-                output.accept(SWItems.NETHERITE_DAGGER);
+                output.accept(SWItems.NETHERITE_DAGGER);}
 
                 output.accept(SWItems.WOODEN_HAMMER);
                 output.accept(SWItems.STONE_HAMMER);

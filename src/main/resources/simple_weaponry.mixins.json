@@ -1,0 +1,11 @@
+{
+  "required": false,
+  "package": "net.projectprimal.simple_weaponry.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "VindicatorWeapon"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
