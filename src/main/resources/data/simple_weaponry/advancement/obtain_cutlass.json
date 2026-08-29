@@ -1,10 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "simple_weaponry:iron_hammer"
+      "id": "simple_weaponry:iron_cutlass"
     },
-    "title": "Warhammer",
-    "description": "Obtain any hammer"
+    "title": "Cutlassry",
+    "description": "Obtain any cutlass"
   },
   "parent": "minecraft:adventure/root",
   "criteria": {
@@ -13,7 +13,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#simple_weaponry:hammers"
+            "items": "#simple_weaponry:cutlasses"
           }
         ]
       }
