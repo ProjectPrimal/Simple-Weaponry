@@ -13,10 +13,10 @@ public class CutlassWeapon extends SwordItem {
         super(tier, properties);
         this.waterDamage = waterDamage;
     }
+
+    @Override
     public boolean hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
         if (attacker.isInWater()) {
-            float waterBonusDamage = waterDamage;
-
             int safetyTimer = target.invulnerableTime;
             target.invulnerableTime = 0;
 
