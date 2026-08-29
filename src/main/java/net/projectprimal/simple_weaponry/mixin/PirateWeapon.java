@@ -21,7 +21,7 @@ public class PirateWeapon {
             at = @At("TAIL"),
             remap = false
     )
-    private void replaceSwordWithDagger(ServerLevelAccessor level, DifficultyInstance difficulty, MobSpawnType spawnType, SpawnGroupData spawnGroupData, CallbackInfoReturnable<SpawnGroupData> cir) {
+    private void replaceSwordWithCutlass(ServerLevelAccessor level, DifficultyInstance difficulty, MobSpawnType spawnType, SpawnGroupData spawnGroupData, CallbackInfoReturnable<SpawnGroupData> cir) {
         Mob plunderer = (Mob) (Object) this;
         plunderer.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(SWItems.GOLDEN_CUTLASS.get()));
     }
