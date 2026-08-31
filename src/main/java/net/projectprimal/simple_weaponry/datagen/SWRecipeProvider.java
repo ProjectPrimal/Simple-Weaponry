@@ -38,37 +38,6 @@ public class SWRecipeProvider extends RecipeProvider implements IConditionBuilde
                 .define('C', SWItems.WOODEN_CLUB.get())
                 .define('N', Items.GOLD_NUGGET)
                 .unlockedBy("has_gold_nugget", has(Items.GOLD_NUGGET)).save(recipeOutput);
-        // Daggers
-        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, SWItems.WOODEN_DAGGER.get())
-                .pattern("T")
-                .pattern("S")
-                .define('S', Items.STICK)
-                .define('T', ItemTags.PLANKS)
-                .unlockedBy("has_planks", has(ItemTags.PLANKS)).save(recipeOutput);
-        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, SWItems.STONE_DAGGER.get())
-                .pattern("T")
-                .pattern("S")
-                .define('S', Items.STICK)
-                .define('T', ItemTags.STONE_TOOL_MATERIALS)
-                .unlockedBy("has_stone", has(ItemTags.STONE_TOOL_MATERIALS)).save(recipeOutput);
-        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, SWItems.IRON_DAGGER.get())
-                .pattern("T")
-                .pattern("S")
-                .define('S', Items.STICK)
-                .define('T', Items.IRON_INGOT)
-                .unlockedBy("has_iron", has(Items.IRON_INGOT)).save(recipeOutput);
-        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, SWItems.GOLDEN_DAGGER.get())
-                .pattern("T")
-                .pattern("S")
-                .define('S', Items.STICK)
-                .define('T', Items.GOLD_INGOT)
-                .unlockedBy("has_gold", has(Items.GOLD_INGOT)).save(recipeOutput);
-        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, SWItems.DIAMOND_DAGGER.get())
-                .pattern("T")
-                .pattern("S")
-                .define('S', Items.STICK)
-                .define('T', Items.DIAMOND)
-                .unlockedBy("has_diamond", has(Items.DIAMOND)).save(recipeOutput);
         // Hammers
         ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, SWItems.WOODEN_HAMMER.get())
                 .pattern("TTT")
