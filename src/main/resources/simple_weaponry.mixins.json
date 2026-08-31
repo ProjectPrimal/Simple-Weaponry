@@ -3,7 +3,7 @@
   "package": "net.projectprimal.simple_weaponry.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "PirateWeapon"
+    "PlundererWeaponMixin"
   ],
   "injectors": {
     "defaultRequire": 1

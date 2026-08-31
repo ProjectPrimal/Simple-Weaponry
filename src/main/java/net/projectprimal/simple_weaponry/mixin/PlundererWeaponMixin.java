@@ -14,7 +14,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(targets = "net.mehvahdjukaar.supplementaries.common.entities.PlundererEntity")
-public class PirateWeapon {
+public class PlundererWeaponMixin {
 
     @Inject(
             method = "finalizeSpawn",
@@ -23,6 +23,6 @@ public class PirateWeapon {
     )
     private void replaceSwordWithCutlass(ServerLevelAccessor level, DifficultyInstance difficulty, MobSpawnType spawnType, SpawnGroupData spawnGroupData, CallbackInfoReturnable<SpawnGroupData> cir) {
         Mob plunderer = (Mob) (Object) this;
-        plunderer.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(SWItems.GOLDEN_CUTLASS.get()));
+        plunderer.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(SWItems.IRON_CUTLASS.get()));
     }
 }
