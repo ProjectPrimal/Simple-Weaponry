@@ -7,12 +7,12 @@
   ],
   "display": {
     "icon": {
-      "id": "simple_weaponry:uranium_studded_club"
+      "id": "simple_weaponry:diamond_hammer"
     },
     "title": "Whack-A-Mole",
-    "description": "Hit an Underzealot with a Club"
+    "description": "Hit an Underzealot with a Hammer"
   },
-  "parent": "simple_weaponry:club_hit",
+  "parent": "simple_weaponry:obtain_hammer",
   "criteria": {
     "bonk": {
       "trigger": "minecraft:player_hurt_entity",
@@ -20,7 +20,7 @@
         "player": {
           "slots": {
             "weapon.mainhand": {
-              "items": "#simple_weaponry:clubs"
+              "items": "#simple_weaponry:hammers"
             }
           }
         },
