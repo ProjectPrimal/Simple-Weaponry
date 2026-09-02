@@ -1,5 +1,6 @@
 package net.projectprimal.simple_weaponry;
 
+import net.projectprimal.simple_weaponry.registries.Loot.SWLootModifiers;
 import net.projectprimal.simple_weaponry.registries.SWEntities;
 import net.projectprimal.simple_weaponry.registries.Item.SWItems;
 import net.projectprimal.simple_weaponry.registries.SWSounds;
@@ -29,6 +30,7 @@ public class SimpleWeaponry {
         SWTabs.register(modEventBus);
         SWEntities.register(modEventBus);
         SWSounds.register(modEventBus);
+        SWLootModifiers.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
     }

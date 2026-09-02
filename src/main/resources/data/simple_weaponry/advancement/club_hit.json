@@ -3,8 +3,12 @@
     "icon": {
       "id": "simple_weaponry:wooden_club"
     },
-    "title": "Bonk!",
-    "description": "Hit a mob with a Club"
+    "title": {
+      "translate": "advancements.simple_weaponry.club_hit.title"
+    },
+    "description": {
+      "translate": "advancements.simple_weaponry.club_hit.description"
+    }
   },
   "parent": "minecraft:adventure/root",
   "criteria": {

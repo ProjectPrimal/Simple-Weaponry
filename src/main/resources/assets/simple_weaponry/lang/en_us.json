@@ -7,6 +7,9 @@
   "item.simple_weaponry.brass_studded_club": "Brass Studded Club",
   "tooltip.simple_weaponry.club": "§7On a full swing, gives slowness to the target",
 
+  "advancements.simple_weaponry.club_hit.title": "Bonk!",
+  "advancements.simple_weaponry.club_hit.description": "Hit a mob with a Club",
+
   "enchantment.simple_weaponry.smashing": "Smashing",
 
   "item.simple_weaponry.wooden_dagger": "Wooden Dagger",
@@ -17,6 +20,9 @@
   "item.simple_weaponry.netherite_dagger": "Netherite Dagger",
   "tooltip.simple_weaponry.dagger": "§7Deals more damage from behind",
 
+  "advancements.simple_weaponry.backstab.title": "Gentlemen",
+  "advancements.simple_weaponry.backstab.description": "Backstab a mob with a dagger",
+
   "item.simple_weaponry.wooden_hammer": "Wooden Hammer",
   "item.simple_weaponry.stone_hammer": "Stone Hammer",
   "item.simple_weaponry.iron_hammer": "Iron Hammer",
@@ -24,6 +30,12 @@
   "item.simple_weaponry.diamond_hammer": "Diamond Hammer",
   "item.simple_weaponry.netherite_hammer": "Netherite Hammer",
   "tooltip.simple_weaponry.hammer": "§7Capable of digging 3x3 areas",
+
+  "advancements.simple_weaponry.obtain_hammer.title": "Warhammer",
+  "advancements.simple_weaponry.obtain_hammer.description": "Obtain a hammer",
+
+  "advancements.simple_weaponry.hammer_hit_mole.title": "Whack-A-Mole",
+  "advancements.simple_weaponry.hammer_hit_mole.description": "Hit an Underzealot with a hammer",
 
 
   "item.simple_weaponry.dynamite": "Dynamite",
@@ -47,6 +59,9 @@
   "item.simple_weaponry.diamond_cutlass": "Diamond Cutlass",
   "item.simple_weaponry.netherite_cutlass": "Netherite Cutlass",
   "tooltip.simple_weaponry.cutlass": "§7Deals more damage in water",
+
+  "advancements.simple_weaponry.obtain_cutlass.title": "Cutlassry",
+  "advancements.simple_weaponry.obtain_cutlass.description": "Obtain a cutlass",
 
 
   "item.simple_weaponry.aztec_club": "§cMacuahuitl",

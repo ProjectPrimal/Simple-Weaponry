@@ -7,6 +7,9 @@
   "item.simple_weaponry.brass_studded_club": "qnlƆ pǝppnʇS ssɐɹq",
   "tooltip.simple_weaponry.club": "§7ʇǝƃɹɐʇ ǝɥʇ oʇ ssǝuʍols sǝʌᴉƃ 'ƃuᴉʍs llnɟ ɐ uO",
 
+  "advancements.simple_weaponry.club_hit.title": "Bonk!",
+  "advancements.simple_weaponry.club_hit.description": "Hit a mob with a Club",
+
   "enchantment.simple_weaponry.smashing": "ƃuᴉɥsɐɯS",
 
   "item.simple_weaponry.wooden_dagger": "ɹǝƃƃɐp uǝpooM",
@@ -17,6 +20,9 @@
   "item.simple_weaponry.netherite_dagger": "ɹǝƃƃɐp ǝʇᴉɹǝɥʇǝN",
   "tooltip.simple_weaponry.dagger": "§7puᴉɥǝq ɯoɹɟ ǝƃɐɯɐp ǝɹoɯ slɐǝp",
 
+  "advancements.simple_weaponry.backstab.title": "Gentlemen",
+  "advancements.simple_weaponry.backstab.description": "Backstab a mob with a dagger",
+
   "item.simple_weaponry.wooden_hammer": "ɹǝɯɯɐH uǝpooM",
   "item.simple_weaponry.stone_hammer": "ɹǝɯɯɐH ǝuoʇS",
   "item.simple_weaponry.iron_hammer": "ɹǝɯɯɐH uoɹI",
@@ -24,6 +30,12 @@
   "item.simple_weaponry.diamond_hammer": "ɹǝɯɯɐH puoɯɐᴉp",
   "item.simple_weaponry.netherite_hammer": "ɹǝɯɯɐH ǝʇᴉɹǝɥʇǝN",
   "tooltip.simple_weaponry.hammer": "§7sɐǝɹɐ ƐxƐ ƃuᴉƃƃᴉp ɟo ǝlqɐdɐƆ",
+
+  "advancements.simple_weaponry.obtain_hammer.title": "Warhammer",
+  "advancements.simple_weaponry.obtain_hammer.description": "Obtain a hammer",
+
+  "advancements.simple_weaponry.hammer_hit_mole.title": "Whack-A-Mole",
+  "advancements.simple_weaponry.hammer_hit_mole.description": "Hit an Underzealot with a hammer",
 
 
   "item.simple_weaponry.dynamite": "ǝʇᴉɯɐuʎp",
@@ -33,6 +45,13 @@
   "tooltip.simple_weaponry.uranium_studded_club": "§7ʇᴉɥ uo pǝʇɐᴉpɐɹɹᴉ ʇǝƃɹɐʇ ǝɥʇ sǝʞɐW",
 
 
+  "item.simple_weaponry.coast_upgrade_smithing_template": "Smithing Template",
+  "upgrade.simple_weaponry.coast_upgrade": "Coast Upgrade",
+  "item.simple_weaponry.smithing_template.coast_upgrade.applies_to": "Swords",
+  "item.simple_weaponry.smithing_template.coast_upgrade.ingredients": "Prismarine Shard",
+  "item.simple_weaponry.smithing_template.coast_upgrade.base_slot_description": "Add a sword",
+  "item.simple_weaponry.smithing_template.coast_upgrade.additions_slot_description": "Add Prismarine Shard",
+
   "item.simple_weaponry.wooden_cutlass": "ssɐlʇnƆ uǝpooM",
   "item.simple_weaponry.stone_cutlass": "ssɐlʇnƆ ǝuoʇS",
   "item.simple_weaponry.iron_cutlass": "ssɐlʇnƆ uoɹI",
@@ -40,6 +59,9 @@
   "item.simple_weaponry.diamond_cutlass": "ssɐlʇnƆ puoɯɐᴉp",
   "item.simple_weaponry.netherite_cutlass": "ssɐlʇnƆ ǝʇᴉɹǝɥʇǝN",
   "tooltip.simple_weaponry.cutlass": "§7ɹǝʇɐʍ uᴉ ǝƃɐɯɐp ǝɹoɯ slɐǝp",
+
+  "advancements.simple_weaponry.obtain_cutlass.title": "Cutlassry",
+  "advancements.simple_weaponry.obtain_cutlass.description": "Obtain a cutlass",
 
 
   "item.simple_weaponry.aztec_club": "§clʇᴉnɥɐnɔɐW",

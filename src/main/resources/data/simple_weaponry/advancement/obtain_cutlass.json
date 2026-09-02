@@ -3,8 +3,12 @@
     "icon": {
       "id": "simple_weaponry:iron_cutlass"
     },
-    "title": "Cutlassry",
-    "description": "Obtain any cutlass"
+    "title": {
+      "translate": "advancements.simple_weaponry.obtain_cutlass.title"
+    },
+    "description": {
+      "translate": "advancements.simple_weaponry.obtain_cutlass.description"
+    }
   },
   "parent": "minecraft:adventure/root",
   "criteria": {

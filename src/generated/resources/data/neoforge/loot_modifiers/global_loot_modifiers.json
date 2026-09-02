@@ -1,0 +1,8 @@
+{
+  "entries": [
+    "simple_weaponry:coast_upgrade_from_shipwreck_treasure",
+    "simple_weaponry:coast_upgrade_from_shipwreck_supply",
+    "simple_weaponry:coast_upgrade_from_shipwreck_map"
+  ],
+  "replace": false
+}

@@ -9,8 +9,12 @@
     "icon": {
       "id": "simple_weaponry:diamond_hammer"
     },
-    "title": "Whack-A-Mole",
-    "description": "Hit an Underzealot with a Hammer"
+    "title": {
+      "translate": "advancements.simple_weaponry.hammer_hit_mole.title"
+    },
+    "description": {
+      "translate": "advancements.simple_weaponry.hammer_hit_mole.description"
+    }
   },
   "parent": "simple_weaponry:obtain_hammer",
   "criteria": {

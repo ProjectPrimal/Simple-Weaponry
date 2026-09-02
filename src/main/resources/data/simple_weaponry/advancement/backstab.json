@@ -2,14 +2,18 @@
   "display": {
     "icon": {
       "id": "simple_weaponry:iron_dagger"
-    },
-    "title": "Gentlemen",
-    "description": "Backstab a mob with a dagger"
-  },
-  "parent": "minecraft:adventure/root",
-  "criteria": {
-    "backstab": {
-      "trigger": "minecraft:impossible"
-          }
-        }
+      },
+      "title": {
+        "translate": "advancements.simple_weaponry.backstab.title"
+      },
+      "description": {
+        "translate": "advancements.simple_weaponry.backstab.description"
       }
+    },
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+      "backstab": {
+        "trigger": "minecraft:impossible"
+    }
+  }
+}

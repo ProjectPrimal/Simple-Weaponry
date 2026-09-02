@@ -3,8 +3,12 @@
     "icon": {
       "id": "simple_weaponry:iron_hammer"
     },
-    "title": "Warhammer",
-    "description": "Obtain any hammer"
+    "title": {
+      "translate": "advancements.simple_weaponry.obtain_hammer.title"
+    },
+    "description": {
+      "translate": "advancements.simple_weaponry.obtain_hammer.description"
+    }
   },
   "parent": "minecraft:adventure/root",
   "criteria": {
