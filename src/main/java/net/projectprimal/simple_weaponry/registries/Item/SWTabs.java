@@ -49,7 +49,7 @@ public class SWTabs {
                 output.accept(SWItems.DYNAMITE);
 
 
-                // Upcoming Pirate Update
+                // Sail the Seas
                 output.accept(SWItems.COAST_UPGRADE_SMITHING_TEMPLATE);
 
                 output.accept(SWItems.WOODEN_CUTLASS);

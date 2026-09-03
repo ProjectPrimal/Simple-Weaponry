@@ -46,7 +46,7 @@ public class SWItems {
     public static final DeferredItem<UraniumClubWeapon> URANIUM_STUDDED_CLUB = ITEMS.register("uranium_studded_club", () -> new UraniumClubWeapon(Tiers.DIAMOND, new Item.Properties().attributes(UraniumClubWeapon.createAttributes(Tiers.DIAMOND, 4, -3.5F))));
 
 
-// Upcoming Pirate Update
+// Sail the Seas
     public static final DeferredItem<Item> COAST_UPGRADE_SMITHING_TEMPLATE = ITEMS.register("coast_upgrade_smithing_template", SWSmithingTemplateItem::createCoastUpgradeTemplate);
 
     public static final DeferredItem<CutlassWeapon> WOODEN_CUTLASS = ITEMS.register("wooden_cutlass", () -> new CutlassWeapon(Tiers.WOOD, new Item.Properties().attributes(CutlassWeapon.createAttributes(Tiers.WOOD, 2, -2F)), 4f));
