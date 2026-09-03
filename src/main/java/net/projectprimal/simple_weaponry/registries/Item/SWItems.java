@@ -49,12 +49,12 @@ public class SWItems {
 // Upcoming Pirate Update
     public static final DeferredItem<Item> COAST_UPGRADE_SMITHING_TEMPLATE = ITEMS.register("coast_upgrade_smithing_template", SWSmithingTemplateItem::createCoastUpgradeTemplate);
 
-    public static final DeferredItem<CutlassWeapon> WOODEN_CUTLASS = ITEMS.register("wooden_cutlass", () -> new CutlassWeapon(Tiers.WOOD, new Item.Properties().attributes(ClubWeapon.createAttributes(Tiers.WOOD, 2, -2F)), 4f));
-    public static final DeferredItem<CutlassWeapon> STONE_CUTLASS = ITEMS.register("stone_cutlass", () -> new CutlassWeapon(Tiers.STONE, new Item.Properties().attributes(ClubWeapon.createAttributes(Tiers.STONE, 2, -2F)), 4f));
-    public static final DeferredItem<CutlassWeapon> GOLDEN_CUTLASS = ITEMS.register("golden_cutlass", () -> new CutlassWeapon(Tiers.GOLD, new Item.Properties().attributes(ClubWeapon.createAttributes(Tiers.GOLD, 2, -2F)), 4f));
-    public static final DeferredItem<CutlassWeapon> IRON_CUTLASS = ITEMS.register("iron_cutlass", () -> new CutlassWeapon(Tiers.IRON, new Item.Properties().attributes(ClubWeapon.createAttributes(Tiers.IRON, 2, -2F)), 4f));
-    public static final DeferredItem<CutlassWeapon> DIAMOND_CUTLASS = ITEMS.register("diamond_cutlass", () -> new CutlassWeapon(Tiers.DIAMOND, new Item.Properties().attributes(ClubWeapon.createAttributes(Tiers.DIAMOND, 2, -2F)), 4f));
-    public static final DeferredItem<CutlassWeapon> NETHERITE_CUTLASS = ITEMS.register("netherite_cutlass", () -> new CutlassWeapon(Tiers.NETHERITE, new Item.Properties().attributes(ClubWeapon.createAttributes(Tiers.NETHERITE, 2, -2F)), 4f));
+    public static final DeferredItem<CutlassWeapon> WOODEN_CUTLASS = ITEMS.register("wooden_cutlass", () -> new CutlassWeapon(Tiers.WOOD, new Item.Properties().attributes(CutlassWeapon.createAttributes(Tiers.WOOD, 2, -2F)), 4f));
+    public static final DeferredItem<CutlassWeapon> STONE_CUTLASS = ITEMS.register("stone_cutlass", () -> new CutlassWeapon(Tiers.STONE, new Item.Properties().attributes(CutlassWeapon.createAttributes(Tiers.STONE, 2, -2F)), 4f));
+    public static final DeferredItem<CutlassWeapon> GOLDEN_CUTLASS = ITEMS.register("golden_cutlass", () -> new CutlassWeapon(Tiers.GOLD, new Item.Properties().attributes(CutlassWeapon.createAttributes(Tiers.GOLD, 2, -2F)), 4f));
+    public static final DeferredItem<CutlassWeapon> IRON_CUTLASS = ITEMS.register("iron_cutlass", () -> new CutlassWeapon(Tiers.IRON, new Item.Properties().attributes(CutlassWeapon.createAttributes(Tiers.IRON, 2, -2F)), 4f));
+    public static final DeferredItem<CutlassWeapon> DIAMOND_CUTLASS = ITEMS.register("diamond_cutlass", () -> new CutlassWeapon(Tiers.DIAMOND, new Item.Properties().attributes(CutlassWeapon.createAttributes(Tiers.DIAMOND, 2, -2F)), 4f));
+    public static final DeferredItem<CutlassWeapon> NETHERITE_CUTLASS = ITEMS.register("netherite_cutlass", () -> new CutlassWeapon(Tiers.NETHERITE, new Item.Properties().attributes(CutlassWeapon.createAttributes(Tiers.NETHERITE, 2, -2F)), 4f));
 
 
 // Upcoming Jungle Update
